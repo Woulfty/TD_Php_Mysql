@@ -15,7 +15,7 @@
     }
 
     function tableau1($arg_1, $arg_2,$arg_3){
-        ?>
+            echo"
             <table border 1>
                 <tr>
                     <td>$arg_1</td>
@@ -26,8 +26,14 @@
                 <tr>
                     <td>$arg_3</td>
                 </tr>
-            </table>
-        <?php
+            </table>";
+    }
+
+    function moy($arg){
+
+        return ($arg[0] + $arg[1] + $arg[2] + $arg[3] + $arg[4] + $arg[5]) / 6;
+
+        
     }
 
 ?>

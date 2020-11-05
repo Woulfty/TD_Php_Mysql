@@ -11,11 +11,12 @@
     </head>
     <body>
         <?php
-            tableau1()
+            tableau1("Bonjour","Bon appétit","Au revoir")
         ?>
         <p>bla bla bla</p>
         <?php
-            tableau1()
+            tableau1("Donald","Joe","Macron");
+            highlight_file(__FILE__);
         ?>
     </body>
 </html>
