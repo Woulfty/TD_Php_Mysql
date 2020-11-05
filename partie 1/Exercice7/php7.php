@@ -9,11 +9,11 @@
         <title>exercice7</title>
     </head>
     <body>
-    <form method="GET">
-            <input type="text"size="10" name="count">
-                <input type="submit" value="Envoyer"></p>
-            </form>
-            <?php
+        <form method="GET">
+            <input type="text"size="" name="count">
+            <input type="submit" value="Envoyer"></p>
+        </form>
+        <?php
         session_start();
         if (!isset($_SESSION['count'])) {
             $_SESSION['count'] = 0;

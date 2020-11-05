@@ -13,6 +13,7 @@
             <input type="text"size="10" name="count">
                 <input type="submit" value="Envoyer"></p>
             </form>
+            <input type="button" name="">
             <?php
         session_start();
         if (!isset($_SESSION['count'])) {
@@ -22,6 +23,5 @@
         }
         highlight_file(__FILE__)
         ?>
-        <input type="button">
     </body>
 </html>
