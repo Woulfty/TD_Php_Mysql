@@ -15,7 +15,7 @@
             <input type="number" name="arg4">
             <input type="number" name="arg5">
             <input type="number" name="arg6">
-            <button type="submit" name="valeur">gg</button>
+            <button type="submit" name="valeur">calcul</button>
         </form>
                 <?php
                     if (!isset($_Post['valeur'])) {

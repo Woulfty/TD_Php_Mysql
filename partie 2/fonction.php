@@ -36,4 +36,30 @@
         
     }
 
+    function session(){
+        session_start();
+    }
+
+    function sessionLog($arg_1,$arg_2){
+        if (!isset($_SESSION["Logged"]) && !$_SESSION["Logged"]) {
+            ?>
+                <form method="POST">
+                <label for="nom">utilisateur :</label>
+                    <input type="nom" name="nom" id="nom" value="" />    
+                    <p>
+                        <label for="password">Mot de passe:</label>
+                        <input type="password" name="password" id="password" value="" />
+                        <input type="submit" name="submit" value="connection" />
+                    </p>
+            </form>
+            <?php
+                if(isset($_POST["submit"])) {
+                    if($_POST['nom'] === "Julien" && $_POST['password'] === "1234") {
+                           return "ok";
+                        }else{
+                            return "no fdp !";
+                        }
+                    }
+        }
+    }
 ?>
