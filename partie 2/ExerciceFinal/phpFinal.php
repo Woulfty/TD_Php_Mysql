@@ -8,7 +8,7 @@
         <title>phpfinal</title>
     </head>
     <body>
-        <p>Identifiant Julien</p>
+        <p>Identifiant : Julien</p>
         <p>Mot de passe : 1234</p>
         <?php
             if (sessionLog() === "ok") {

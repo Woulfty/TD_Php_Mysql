@@ -51,7 +51,7 @@
                     if($_POST['nom'] === "Julien" && $_POST['password'] === "1234") {
                            return "ok";
                         }else{
-                            return "no fdp !";
+                            return "";
                         }
                     }
         }
