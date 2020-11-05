@@ -1,3 +1,4 @@
+<!--exercice 1-->
 <?php
     function tableau(){
         ?>
@@ -13,7 +14,7 @@
             </table>
         <?php
     }
-
+//exercice 2
     function tableau1($arg_1, $arg_2,$arg_3){
             echo"
             <table border 1>
@@ -28,18 +29,11 @@
                 </tr>
             </table>";
     }
-
+//exercice 3
     function moy($arg){
-
         return ($arg[0] + $arg[1] + $arg[2] + $arg[3] + $arg[4] + $arg[5]) / 6;
-
-        
     }
-
-    function session(){
-        session_start();
-    }
-
+//exercice final
     function sessionLog($arg_1,$arg_2){
         if (!isset($_SESSION["Logged"]) && !$_SESSION["Logged"]) {
             ?>
