@@ -1,0 +1,33 @@
+body{margin: 0}
+.bandeau {
+	width:100%;
+	height:100px;
+	background-color:#00CCFF;
+}
+.contenu {
+	width:100%;
+	height:70%;
+	background-color:#fce300;
+}
+.pied {
+	width:100%;
+	height:100px;
+	background-color:#30db94;
+}
+.menu {
+	width:80px;
+	height:130%;
+	background-color:#cc4db0;
+}
+.center{
+    text-align: center;
+}
+.Vcenter{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.right{
+	text-align:right;
+}

@@ -1,0 +1,11 @@
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+h2{font-size:20px;}
+h2.titrerouge{color:red;}
+.center{
+    text-align: center;
+}
